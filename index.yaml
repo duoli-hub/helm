@@ -27,9 +27,9 @@ entries:
   mysql:
   - apiVersion: v1
     appVersion: 5.7.26
-    created: "2022-11-18T10:12:20.944202879+08:00"
+    created: "2022-11-18T10:15:09.885887545+08:00"
     description: Chart to create a Highly available MySQL cluster
-    digest: 62d73a6ecca7a4e8f8ebb88f07df243036f6381bd9bfcb7bc0289648fad2ffa4
+    digest: a5041d75e4f7ea26d9bcb0fff2ccca4343c2f4369b98bdfb5ee8b408539e17cd
     home: https://mysql.com
     icon: https://bitnami.com/assets/stacks/mysql/img/mysql-stack-220x234.png
     keywords:
@@ -41,8 +41,8 @@ entries:
       name: KubeGems
     name: mysql
     sources:
-    - https://github.com/duoli-hub/helm/tree/master/
+    - https://github.com/duoli-hub/helm/tree/master/mysql
     urls:
     - https://duoli-hub.github.io/helm/mysql/mysql-1.0.0.tgz
     version: 1.0.0
-generated: "2022-11-18T10:12:20.940395681+08:00"
+generated: "2022-11-18T10:15:09.883848259+08:00"
