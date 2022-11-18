@@ -21,3 +21,28 @@ entries:
     - https://duoli-hub.github.io/helm/nacos/nacos-1.0.0.tgz
     version: 1.0.0
 generated: "2022-11-18T09:38:12.690734037+08:00"
+---
+apiVersion: v1
+entries:
+  mysql:
+  - apiVersion: v1
+    appVersion: 5.7.26
+    created: "2022-11-18T10:02:02.874169453+08:00"
+    description: Chart to create a Highly available MySQL cluster
+    digest: 45db5ed86ca764982dc3e714deafbd08f9ef8a1e43376c911c5455f550df6255
+    home: https://mysql.com
+    icon: https://bitnami.com/assets/stacks/mysql/img/mysql-stack-220x234.png
+    keywords:
+    - database
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    - email: support@kubegems.io
+      name: KubeGems
+    name: mysql
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mysql
+    urls:
+    - https://duoli-hub.github.io/helm/mysql/mysql-1.0.0.tgz
+    version: 1.0.0
+generated: "2022-11-18T10:02:02.872223571+08:00"
