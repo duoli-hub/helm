@@ -169,3 +169,9 @@ Use the workaround below to upgrade from versions previous to 3.0.0. The followi
 $ kubectl delete statefulset mysql-master --cascade=false
 $ kubectl delete statefulset mysql-slave --cascade=false
 ```
+
+## Initialize the nacos database
+
+```shell
+kubectl run mysql-client --rm --tty -i --restart='Never' --image  registry.cn-hangzhou.aliyuncs.com/duoli/mysql-client:5.7.26 --namespace demo --command -- mysql -h mysql.demo.svc.cluster.local -uroot -p"123456" -e "source /home/nacos.sql"
+```
