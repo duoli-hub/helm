@@ -21,7 +21,7 @@ entries:
     - https://duoli-hub.github.io/helm/nacos/nacos-1.0.0.tgz
     version: 1.0.0
 generated: "2022-11-18T09:38:12.690734037+08:00"
----
+
 apiVersion: v1
 entries:
   mysql:
