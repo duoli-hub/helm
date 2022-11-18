@@ -3,9 +3,9 @@ entries:
   mysql:
   - apiVersion: v1
     appVersion: 5.7.26
-    created: "2022-11-18T10:45:25.138455598+08:00"
+    created: "2022-11-18T11:12:33.305094503+08:00"
     description: Chart to create a Highly available MySQL cluster
-    digest: a5041d75e4f7ea26d9bcb0fff2ccca4343c2f4369b98bdfb5ee8b408539e17cd
+    digest: 91a315ccb4e7d93d255660be33971f39aa891075064575e383399145bf63f23a
     home: https://mysql.com
     icon: https://bitnami.com/assets/stacks/mysql/img/mysql-stack-220x234.png
     keywords:
@@ -24,7 +24,7 @@ entries:
   nacos:
   - apiVersion: v2
     appVersion: 2.0.2
-    created: "2022-11-18T10:45:25.139412483+08:00"
+    created: "2022-11-18T11:12:33.30616791+08:00"
     description: Official helm chart for Nacos Server
     digest: 9b7ded656f10b0ab666986ff02b82c9bb13fe994dfa44d420b82c10ee34b0822
     home: https://nacos.io
@@ -41,4 +41,4 @@ entries:
     urls:
     - https://duoli-hub.github.io/helm/nacos/nacos-1.0.0.tgz
     version: 1.0.0
-generated: "2022-11-18T10:45:25.136810904+08:00"
+generated: "2022-11-18T11:12:33.303176088+08:00"
